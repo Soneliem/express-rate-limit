@@ -67,9 +67,6 @@
 		"pre-commit": "lint-staged",
 		"prepare": "run-s compile && husky install config/husky"
 	},
-	"peerDependencies": {
-		"express": "^4 || ^5"
-	},
 	"devDependencies": {
 		"@jest/globals": "29.4.0",
 		"@types/express": "4.17.16",
